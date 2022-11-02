@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        section {
+            text-align: center;
+        }
+
+        table.minimalistBlack {
+            border: 3px solid #000000;
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+        }
+
+        table.minimalistBlack td,
+        table.minimalistBlack th {
+            border: 1px solid #000000;
+            padding: 5px 4px;
+        }
+
+        table.minimalistBlack tbody td {
+            font-size: 13px;
+        }
+
+        table.minimalistBlack thead {
+            background: #CFCFCF;
+            background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+            border-bottom: 3px solid #000000;
+        }
+
+        table.minimalistBlack thead th {
+            font-size: 15px;
+            font-weight: bold;
+            color: #000000;
+            text-align: left;
+        }
+
+        table.minimalistBlack tfoot td {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Pasteleria</h1>
+        <nav>
+            <ul id="nav-bar">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./saboresadornos.html">Sabores y Adornos</a></li>
+                <li class="nav-item"><a href="./hacerpedido.html">Hacer pedido</a></li>
+                <li class="nav-item"><a href="./sucursales.html">Sucursales</a></li>
+                <li class="nav-item"><a href="./admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Administrador</h2>
+        <article>
+            <h3>Sabores restantes</h3>
+            <p>10</p>
+            <h3>Adornos restantes</h3>
+            <p>13</p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <table class="minimalistBlack">
+                <thead>
+                    <tr>
+                        <th>Pedido N</th>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Telefono</th>
+                        <th>Correo</th>
+                        <th>Descripcion</th>
+                        <th>Sabores</th>
+                        <th>Decoraciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5453</td>
+                        <td>Luis</td>
+                        <td>Perez Sanchez</td>
+                        <td>744 469 9000</td>
+                        <td>luisperez@gmail.com</td>
+                        <td>Quiero un pastel que tenga lineas de vainilla en las orillas</td>
+                        <td>Chocolate</td>
+                        <td>Cubierta de frambuesa</td>
+                    </tr>
+                    <tr>
+                        <td>5354</td>
+                        <td>Frida</td>
+                        <td>Lopez Jimenez</td>
+                        <td>744 484 1988</td>
+                        <td>fridalopez@gmail.com</td>
+                        <td>Pastel con figuras de circulos en los laterales</td>
+                        <td>Moka</td>
+                        <td>Cubierta de fresa</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+</body>
+
+</html>

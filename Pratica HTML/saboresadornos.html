@@ -12,27 +12,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
     <style>
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .item {
-            width: 50%;
-            margin: auto;
-        }
-
-        .item img {
-            display: block;
-            width: 100%;
-            max-width: 500px;
-            height: auto;
-            margin: auto;
-        }
-
-        #subtitle {
+        section {
             text-align: center;
+        }
+
+        li {
+            list-style-type: none;
         }
     </style>
 </head>
@@ -53,23 +38,23 @@
 
     <section>
         <article>
-            <h2 id="subtitle">Hacemos los mejores pasteles</h2>
-            <div class="image-container">
-                <div class="item">
-                    <img src="https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_960_720.jpg"
-                        alt="Imagen de un pastel de chocolate con una fresa encima">
-                </div>
-                <div class="item">
-                    <img src="https://cdn.pixabay.com/photo/2016/03/27/22/38/cake-1284548_960_720.jpg"
-                        alt="Imagen de un pastel con decoraciones de frutas encima">
-                </div>
-            </div>
+            <h2>Sabores</h2>
+            <ul>
+                <li>Chocolate $100</li>
+                <li>Fresa $80</li>
+                <li>Vainilla $80</li>
+                <li>Moka $130</li>
+            </ul>
+
+            <h2>Adornos</h2>
+            <ul>
+                <li>Cubierta de fresas $40</li>
+                <li>Cubierta de frambuesa $40</li>
+                <li>Imagen personalizada $50</li>
+            </ul>
         </article>
     </section>
 
-    <footer>
-
-    </footer>
 </body>
 
 </html>

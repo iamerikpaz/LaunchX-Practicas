@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        section {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Pasteleria</h1>
+        <nav>
+            <ul id="nav-bar">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./saboresadornos.html">Sabores y Adornos</a></li>
+                <li class="nav-item"><a href="./hacerpedido.html">Hacer pedido</a></li>
+                <li class="nav-item"><a href="./sucursales.html">Sucursales</a></li>
+                <li class="nav-item"><a href="./admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h2>Envia tu pedido</h2>
+            <form action="" method="post">
+
+                <label for="name">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre"><br>
+                <label for="apellidos">Apellidos:</label><br>
+                <input type="text" name="apellidos" id="apellidos"><br>
+                <label for="telefono">Telefono:</label><br>
+                <input type="tel" name="telefono" id="telefono"><br>
+                <label for="correo">Correo:</label><br>
+                <input type="email" name="correo" id="correo"><br>
+                <label for="descripcionPastel">Describe tu pastel:</label><br>
+                <input type="text" name="descripcionPastel" id="descripcionPastel"><br>
+                <fieldset>
+                    <legend>Elige los sabores</legend>
+                    <input type="checkbox" name="chocolate" id="chocolate">
+                    <label for="chocolate">Chocolate</label>
+                    <input type="checkbox" name="fresa" id="fresa">
+                    <label for="fresa">Fresa</label>
+                    <input type="checkbox" name="vainilla" id="vainilla">
+                    <label for="vainilla">Vainilla</label>
+                    <input type="checkbox" name="moka" id="moka">
+                    <label for="moka">Moka</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Elige las decoraciones</legend>
+                    <input type="checkbox" name="cubiertaFresas" id="cubiertaFresas">
+                    <label for="cubiertaFresas">Cubierta de fresas</label>
+                    <input type="checkbox" name="cubiertaFrambuesa" id="cubiertaFrambuesa">
+                    <label for="cubiertaFrambuesa">Cubierta de frambuesa</label>
+                    <input type="checkbox" name="imagenPersonalizada" id="imagenPersonalizada">
+                    <label for="imagenPersonalizada">Imagen personalizada</label>
+                </fieldset>
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
